@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
   padding: 0;
   margin: 0;
@@ -6,13 +5,20 @@
 }
 
 body {
-  background-color: #000000;
-  font-family: Poppins -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+  background-color: #131313;
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
     Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
 }
 
+.home-main {
+  width: 70%;
+  margin: 0px auto;
+}
+
 .container {
-  width: 74%;
+  /* width: 74%; */
   margin: 30px auto 0px;
   justify-content: center;
   color: #ffffff;
@@ -21,7 +27,12 @@ body {
 
 .olumide-heading {
   font-size: 2rem;
-  margin-top: 10px;
+
+  /* margin-top: 10px; */
+}
+
+.frontend-lang-p {
+  font-size: 16px;
 }
 
 .olumide-content {
@@ -48,41 +59,40 @@ body {
     margin-top: 30px;
   }
 }
-=======
-body{
-    background-color: #131313;
-    margin: 0px;
-    padding: 0px;
-    font-family: Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+body {
+  background-color: #131313;
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
 }
 
-.desc-section{
-    color:white;
-    width: 74%;
-    margin: 30px auto 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+.desc-section {
+  color: white;
+  /* width: 74%; */
+  margin: 30px auto 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.site-desc{
-    display: flex;
-    gap: 30px;
+.site-desc {
+  display: flex;
+  gap: 30px;
 }
-.site-desc-img{
-    width: 260px;
-    height: 100px;
+.site-desc-img {
+  width: 260px;
+  height: 100px;
 }
-.share-code{
-    height: 116px;
+.share-code {
+  height: 116px;
 }
-.site-desc-heading{
-    margin: 0px;
-    margin-top: 16px;
-    padding: 0px;
-    font-size: 20px;
+.site-desc-heading {
+  margin: 0px;
+  margin-top: 16px;
+  padding: 0px;
+  font-size: 20px;
 }
-.site-desc-p{
-    font-size: 16px;
-    margin: 0px;
+.site-desc-p {
+  font-size: 16px;
+  margin: 0px;
 }
->>>>>>> f34e47ac73a8d3a10c62ff5d74f5796860b68abf
