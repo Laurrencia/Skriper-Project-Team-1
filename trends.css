@@ -16,18 +16,20 @@ body{
     padding: 0px;
     box-sizing: border-box;
 }
-.pagination{
+.for-search{
     width: 100%;
     background-color: #252525;
     height: 70px;
     box-sizing: border-box;
     display: flex;
-    padding-top: 12px;
-    gap: 10px;
-    align-content: center;
     justify-content: center;
 }
-.pagination a:link, .pagination a:visited{
+.pagination{
+    display: flex;
+    padding-top: 12px;
+    gap: 10px;
+}
+.pagination a:link, .pagination a:visited, .label{
     font-size: 19px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-decoration: none;

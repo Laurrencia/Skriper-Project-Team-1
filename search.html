@@ -19,8 +19,8 @@
         <div>
             <a href="index.html"><img src="img/skriperlogo.png" width="45px" alt="main skriper logo"/></a>
             <div>
-                <h3>Latest</h3>
-                <p>Latest codes published</p>
+                <h3>Code Library</h3>
+                <p>Codes from @search</p>
             </div>
         </div>
         <nav class="header-nav">
@@ -39,10 +39,29 @@
         </nav>
     </header>
     <main class="trend-main">
-        <div class="pagination">
-            <a href="#" class="disabled"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
-            <a class="current" href="trends.html">1</a>
-            <a href=""><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        <div class="for-search">
+            <div>
+                <label class="label" for="sort">Sort by</label>
+                <select name="sort" id="sort">
+                    <option value="Newest"></option>
+                    <option value="Oldest"></option>
+                    <option value="Most forked"></option>
+                    <option value="Least forked"></option>
+                    <option value="Most viewed"></option>
+                    <option value="Least viewed"></option>
+                    <option value="Most starred"></option>
+                    <option value="Least starred"></option>
+                </select>
+            </div>
+            <div>
+                <label class="label" for="search">Search</label>
+                <input type="search" name="Search" id="search">
+            </div>
+            <div class="pagination">
+                <a href="#" class="disabled"><i class="fa fa-arrow-left" aria-hidden="true"></i></a>
+                <a class="current" href="trends.html">1</a>
+                <a href=""><i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+            </div>
         </div>
         <div class="cards">
             <div class="card-item">
