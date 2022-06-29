@@ -75,10 +75,19 @@ body{
     padding-top: 7px;
 }
 
-.username{
+.trend-username, .username{
     background-color: #252525;
-    padding: 20px 16px;
+    padding: 20px 16px 30px;
     height: 120px;
+}
+
+.feature-username{
+    height: 170px;
+}
+
+.code-desc{
+    color: #a3a0a0;
+    font-size: 12px;
 }
 .code{
     margin: 0px;
