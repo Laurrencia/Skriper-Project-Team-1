@@ -1,35 +1,130 @@
-body{
-    background-color: #131313;
-    margin: 0px;
-    padding: 0px;
-    font-family: Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.desc-section{
-    color:white;
-    width: 74%;
-    margin: 30px auto 0px;
+
+body {
+  background-color: #131313;
+
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+}
+
+.home-main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.skriper-intro {
+  text-align: center;
+}
+
+.skriper-gradient-text {
+  font-size: 4.7rem;
+  height: auto;
+  background: linear-gradient(
+    292.46deg,
+    #27ae60 17.79%,
+    #2f80ed 35.92%,
+    #9b51e0 54.06%,
+    #eb5757 71.08%,
+    #f2994a 87.36%
+  );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.skriper-gradient-text-desc {
+  font-size: 25px;
+  color: #ffffff;
+  font-weight: 645;
+}
+
+.skriper-lines-of-code-on-mac-image {
+  width: 80%;
+}
+
+.container {
+  /* width: 74%; */
+  margin: 30px auto 0px;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.olumide-heading {
+  font-size: 2rem;
+
+  /* margin-top: 10px; */
+}
+
+.frontend-lang-p {
+  font-size: 16px;
+}
+
+.olumide-content {
+  display: flex;
+  margin-top: 30px;
+  gap: none;
+}
+
+.olumide-image {
+  width: 90%;
+  margin: 50px;
+}
+
+@media (max-width: 768px) {
+  .olumide-image {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .olumide-content {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    margin-top: 30px;
+  }
 }
-.site-desc{
-    display: flex;
-    gap: 30px;
+body {
+  background-color: #131313;
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
 }
-.site-desc-img{
-    width: 260px;
-    height: 100px;
+
+.desc-section {
+  color: white;
+  /* width: 74%; */
+  margin: 30px auto 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
-.share-code{
-    height: 116px;
+.site-desc {
+  display: flex;
+  gap: 30px;
 }
-.site-desc-heading{
-    margin: 0px;
-    margin-top: 16px;
-    padding: 0px;
-    font-size: 20px;
+.site-desc-img {
+  width: 260px;
+  height: 100px;
 }
-.site-desc-p{
-    font-size: 16px;
-    margin: 0px;
+.share-code {
+  height: 116px;
+}
+.site-desc-heading {
+  margin: 0px;
+  margin-top: 16px;
+  padding: 0px;
+  font-size: 20px;
+}
+.site-desc-p {
+  font-size: 16px;
+  margin: 0px;
 }
