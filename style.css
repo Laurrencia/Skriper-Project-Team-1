@@ -33,8 +33,10 @@ body {
     #eb5757 71.08%,
     #f2994a 87.36%
   );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .skriper-gradient-text-desc {
