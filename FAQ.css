@@ -1,6 +1,81 @@
-body{
-    background-color: black;
+*{padding: 0px; margin: 0px;box-sizing: border-box; }
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color:#131313;
     color: white;
+    justify-items: center;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+}
+.special{
+    padding-top: 15px;
+}
+.header-nav{
+    display: flex;
+    margin: 0 10px;
+    justify-items: center;
+}
+.head{
+    display: flex;
+    width: 20%;
+    margin: 0 10px;
+    justify-items: center;
+}
+.head-text{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-top: 8px;
+    margin-left: 5px;
+    font-size: 14px;
+}
+small{
+    font-size: 9px;
+}
+.header-nav a{
+    color: white;
+    text-decoration: none;
+    justify-content: space-evenly;
+    margin:0 10px;
+    justify-items: center;
+}
+.pages a{
+    color: rgba(255, 255, 255, 0.6);
+}
+.pages a:hover{
+    color: white;
+}
+.pages2 a:hover{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.icon{
+    margin-right: 10px ;
+}
+.start{
+    background: linear-gradient(to right,#33a9dc,#4c83ff); 
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+.start1{
+    background: linear-gradient(to right,#33a9dc,#4c83ff); 
+    padding: 5px 8px;
+    border-radius: 3px; 
+}
+.black-bg{
+   border:1px solid gray;
+   padding: 8px 12px;
+   border-radius: 3px;
+}
+
+body{
+    background-color: #131313;
+    color: white;
+    font-family: Poppins, -apple-system, BlinkMacSystemFont, Segoe UI, Oxygen,
+    Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
 }
 
 details > summary {
@@ -9,13 +84,13 @@ details > summary {
 
 details {
     background-color: rgb(71, 70, 70);
-    /*border: 5px solid red;*/
     font-size: 18px;
     border-radius: 3px;
     width: 90%;
     padding: 10px;
     margin: 10px auto;
     display: flex;
+    cursor: pointer;
 
 }
 
@@ -31,44 +106,143 @@ video{
 
 form{
     margin: auto;
-}
-
-.search-bar{
-    width: 95%;
-    background-color: rgb(71, 70, 70);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-
-}
-
-.search-bar input{
-    background-color: transparent;
-    flex: 1;
-    border:none;
-    outline: 0;
-    padding: 10px;
-    font-size: 20px;
-    margin: auto;
-    /*position: relative;
-    right: 10px;*/
-}
-
-.search-bar button .btn{
-    background-color: rgb(71, 70, 70) ;
-    width: 30px;
-    height: 30px;
-    border: 0;
-}
-
-.search-bar button {
-    cursor: pointer;
+    width: 98%;
+    justify-content: space-between;
+    margin: 0px auto;
+    padding-top: 90px;
+    
 }
 
 
-/* media (min-width) {
-    body {
-        width:50%
-    }
-}*/
+.search-input{
+    width: 98%;
+    margin: 5px auto;
+    background-color: #4e4e4e;
+    height: fit-content;
+    display: flex;
+}
+
+input{
+    background-color: #3b3b3b;
+    padding: 12px 36px 12px 15px;
+    border: none;
+    outline: none;
+    padding: 14px 12px;
+    color: white;
+    font-size: 16px;
+    width: 90%;
+    
+}
+.search-input i{
+    padding-left: 6px;
+    color: white;
+    padding: 12px 10px 10px;
+    
+}
+.label{
+    color: white;
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+    padding: 12px 36px 12px 15px;
+    border: none;
+    outline: none;
+}
+.input-section{
+    padding: 5px;
+    background-color: #252525;
+    width: 92%;
+    margin: 0px auto;
+   
+   
+}
+
+/* footer */
+footer{
+    
+    background-color:#252525;
+    margin-top: 30px;
+    bottom: 0;
+    width: 100%;
+    padding: 50px 0;
+    font-family: Poppins,-apple-system,BlinkMacSystemFont,Segoe UI,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-logo a{
+    color: #eee;
+    text-decoration: none;
+    margin: 0 5px;
+    border: 1px solid #eee;
+    padding: 2px 3px;
+}
+.footer-logo img{
+    margin-bottom: 15px;
+}
+.footer-interest a{
+    display: flex;
+    flex-direction: column;
+    color: #eee;
+    text-decoration: none;
+    line-height: 30px;
+    font-size: 14px;
+}
+.footer-interest h4{
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+    color:  rgba(255, 255, 255, 0.6);
+    opacity: .6;
+}
+.footer-contact{
+    display: block;
+    color: #eee;
+    
+}
+.footer-contact p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 17px;
+}
+
+/* Mobile Responsive CSS*/
+
+@media (max-width:938px){
+    .pages{display: none;}     
+
+}
+
+@media (max-width:768px){
+    .text-eclipse{display: none;}
+    .pages{display: none;}
+    .footer-content{flex-direction: column;}
+    .footer-logo a{display: none;}
+
+}
+@media (max-width:395px){
+    .header-nav a{margin: 0 3px;}
+    .header-nav{margin: 0 3px;}
+}
+@media (max-width:300px){
+    .head-text{display: none;}
+    .header-nav a{margin: 0 2px;}
+    .header-nav{margin: 0 2px;}
+}
+
+
+
+
+
