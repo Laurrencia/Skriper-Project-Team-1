@@ -1,0 +1,74 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+details > summary {
+    list-style: none;
+}
+
+details {
+    background-color: rgb(71, 70, 70);
+    /*border: 5px solid red;*/
+    font-size: 18px;
+    border-radius: 3px;
+    width: 90%;
+    padding: 10px;
+    margin: 10px auto;
+    display: flex;
+
+}
+
+details[open] > summary  {
+    font-size: 25px;
+}
+
+video{
+    margin: auto;
+    width: 80px;
+    height: 100px;
+}
+
+form{
+    margin: auto;
+}
+
+.search-bar{
+    width: 95%;
+    background-color: rgb(71, 70, 70);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.search-bar input{
+    background-color: transparent;
+    flex: 1;
+    border:none;
+    outline: 0;
+    padding: 10px;
+    font-size: 20px;
+    margin: auto;
+    /*position: relative;
+    right: 10px;*/
+}
+
+.search-bar button .btn{
+    background-color: rgb(71, 70, 70) ;
+    width: 30px;
+    height: 30px;
+    border: 0;
+}
+
+.search-bar button {
+    cursor: pointer;
+}
+
+
+/* media (min-width) {
+    body {
+        width:50%
+    }
+}*/
