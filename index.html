@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Skriper</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skriper</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/skriperlogo.png" type="image/x-icon">
 </head>
-
 <body>
     <header>
-        <a href="index.html"><img src="img/skriperlogo.png" width="45px" alt="main skriper 																				logo" /></a>
+        <a href="index.html" ><img src="img/skriperlogo.png" width="45px" alt="main skriper logo"/></a>
         <nav class="header-nav">
-          <div>
-            <a href="trends.html"><i class="fa fa-free-code-camp" aria-hidden="true"></i>Trends</a>
-            <a href="featured.html"><i class="fa fa-star" aria-hidden="true"></i>Featured</a>
-            <a href="latest.html"><i class="fa fa-clock-o" aria-hidden="true"></i>Latest</a>
+          <div class="pages">
+            <a href="trends.html"
+              ><i class="icon fa fa-free-code-camp" aria-hidden="true"></i>Trends</a
+            >
+            <a href="featured.html"><i class="icon fa fa-star" aria-hidden="true"></i>Featured</a>
+            <a href="latest.html"><i class="icon fa fa-clock-o" aria-hidden="true"></i>Latest</a>
           </div>
-          <a href="#"><img src="img/start-coding.png" width="16px" alt="start coding logo" />Start Coding</a>
-          <a href="#"
-            ><i class="fa fa-user-circle-o" aria-hidden="true"></i>Login</a
-          >
-          <a href="search.html"><i class="fa fa-search" aria-hidden="true"></i></a>
+          <div class="pages2">
+            <a href="#" class="start"><img src="./img/start-coding.png" class="icon" width="16px" alt="start coding logo" /><span class="text-eclipse">Start Coding</span></a>
+            <a href="" class="black-bg" ><i class="icon fa fa-user-circle-o" aria-hidden="true"></i><span class="text-eclipse">Login</span></a>
+            <a href="search.html"class="black-bg"><i class="fa fa-search" aria-hidden="true"></i></a>
+          </div>
         </nav>
     </header>
     <main class="home-main">
@@ -64,7 +66,7 @@
     <!-- SITE DESCRIPTION SECTION -->
     <section class="desc-section">
       <div class="site-desc">
-        <div>
+        <div class="img-div">
           <img class="site-desc-img share-code" src="img/sharecode.png" alt="share code" />
         </div>
         <article class="site-desc-article">
@@ -78,7 +80,7 @@
         </article>
       </div>
       <div class="site-desc">
-        <div>
+        <div class="img-div">
           <img class="site-desc-img" src="img/snippet.png" alt="snippets" />
         </div>
         <article class="site-desc-article">
@@ -90,7 +92,7 @@
         </article>
       </div>
       <div class="site-desc">
-        <div>
+        <div class="img-div">
           <img class="site-desc-img" src="img/tutorials.png" alt="tutorials" />
         </div>
         <article class="site-desc-article">
@@ -102,11 +104,11 @@
         </article>
       </div>
       <div class="site-desc">
-        <div>
+        <div class="img-div">
           <img class="site-desc-img" src="img/markdown.png" alt="markdown" />
         </div>
         <article class="site-desc-article">
-          <h3 class="site-desc-heading">START WRINTING</h3>
+          <h3 class="site-desc-heading">START WRITING</h3>
           <p class="site-desc-p">
             Document your code or write something for your users. Publishing
             content has never been easier.
@@ -117,26 +119,28 @@
     <!-- END OF SITE DESCRIPTION SECTION -->
   </main>
   <footer>
-    <div>
-      <img src="img/just-skripper-text.svg" alt="skriper-text" />
-      <address>
-        <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
-        <a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-        <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-      </address>
-    </div>
-    <div>
-      <h4>LINKS OF INTEREST</h4>
-      <nav class="footer-nav">
-        <a href="FAQ.html">FAQ</a>
-        <a href="twitter.com">Twitter</a>
-        <a href="facebook.com">Facebook</a>
-        <a href="youtube.com">YouTube</a>
-      </nav>
-    </div>
-    <div>
-      <p>Copyright Skriper.dev &copy; 2022</p>
-      <img src="img/contactskriper.svg" alt="contact@skriper.dev" />
+    <div class="footer-content">
+      <div class="footer footer-logo">
+        <img src="img/just-skripper-text.svg" alt="skriper-text" width="100px"/>
+        <address>
+          <a href="https://twitter.com/skriperdev"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+          <a href="https://www.youtube.com/channel/UCxkl2GinXpnAtqfBeXC3Gig"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+          <a href="https://web.facebook.com/SkriperDEV"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+        </address>
+      </div>
+      <div class=" footer footer-interest">
+        <h4>LINKS OF INTEREST</h4>
+        <nav class="footer-nav">
+          <a href="FAQ.html">FAQ</a>
+          <a href="https://twitter.com/skriperdev">Twitter</a>
+          <a href="https://web.facebook.com/SkriperDEV">Facebook</a>
+          <a href="https://www.youtube.com/channel/UCxkl2GinXpnAtqfBeXC3Gig">YouTube</a>
+        </nav>
+      </div>
+      <div class=" footer footer-contact">
+        <p>Copyright Skriper.dev &copy; 2022</p>
+        <img src="img/contactskriper.svg" alt="contact@skriper.dev" />
+      </div>
     </div>
   </footer>
 </body>
